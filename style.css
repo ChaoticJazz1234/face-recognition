@@ -1,0 +1,60 @@
+.name_of_emotions{
+    animation-name: emotionlist;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes emotionlist{
+0%    {background-color: red; left: 0px;}
+5%    {background-color: orangered; left: 10px;}
+10%   {background-color: orange; left: 20px;}
+15%   {background-color: yellow; left: 30px;}
+20%   {background-color: orange; left: 40px;}
+25%   {background-color: orangered; left: 50px;}
+30%   {background-color: red; left: 40px;}
+35%   {background-color: orangered;left: 30px;}
+40%   {background-color: orange; left: 20px;}
+45%   {background-color: yellow; left: 10px;}
+50%   {background-color: orange; left: 0px;}
+55%   {background-color: orangered; left: -10px;}
+60%   {background-color: red; left: -20px;}
+65%   {background-color: orangered;left: -30px;}
+70%   {background-color: orange; left: -30px;}
+75%   {background-color: yellow; left: -40px;}
+80%   {background-color: orange; left: -50px;}
+85%   {background-color: orangered;left: -40px;}
+90%   {background-color: red; left: -30px;}
+95%   {background-color: orangered; left: -20px;}
+100%  {background-color: orange; left: -10px;}
+
+}
+
+body{
+    animation-name: movingtext;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes movingtext{
+    0%    {background-color: red; left: 0px;}
+    5%    {background-color: orangered; left: 10px;}
+    10%   {background-color: orange; left: 20px;}
+    15%   {background-color: yellow; left: 30px;}
+    20%   {background-color: orange; left: 40px;}
+    25%   {background-color: orangered; left: 50px;}
+    30%   {background-color: red; left: 40px;}
+    35%   {background-color: orangered;left: 30px;}
+    40%   {background-color: orange; left: 20px;}
+    45%   {background-color: yellow; left: 10px;}
+    50%   {background-color: orange; left: 0px;}
+    55%   {background-color: orangered; left: -10px;}
+    60%   {background-color: red; left: -20px;}
+    65%   {background-color: orangered;left: -30px;}
+    70%   {background-color: orange; left: -30px;}
+    75%   {background-color: yellow; left: -40px;}
+    80%   {background-color: orange; left: -50px;}
+    85%   {background-color: orangered;left: -40px;}
+    90%   {background-color: red; left: -30px;}
+    95%   {background-color: orangered; left: -20px;}
+    100%  {background-color: orange; left: -10px;}    
+}
